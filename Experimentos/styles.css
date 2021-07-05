@@ -1,34 +1,37 @@
 body {
-    margin: 0 auto;
+  background-color: #259e21;
 }
 
-/*Con esto se va a hacer un grid responsive sin media queries*/
-.contenedor_grid{
-    display: grid;
-    gap: 2rem;
-    grid-auto-rows:22rem;
-    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
-    background-color: rgb(238, 240, 240);
+p {
+  color: rgba(22, 83, 88, 0.548);
+  font-size: 2em;
 }
-.grid_item {
-    grid-column: span 2;
-    border: 1px solid black;
-    display: flex;
-    justify-content: flex-start;
-    padding-left: 6rem;
-    align-items: center;
-    background-color: aqua;
+
+ul {
+  background-color: #d4231d;
+  padding: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
-.grid_item p {
-    font-size: 3rem;
-    color: #fff;
+
+ul li {
+  display: inline-block;
 }
-.punto {
-    width: 1em;
-    height: 1em;
-    background-color: blue;
-    position: absolute;
-    left: 1rem;
-    top: 2rem;
-   
+
+ul a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bolder;
 }
+
+ul a:hover {
+  background-color: #cf7fab;
+  padding: 1rem;
+}
+/*# sourceMappingURL=styles.css.map */
