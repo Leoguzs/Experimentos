@@ -1,5 +1,5 @@
 body {
-  background-color: #259e21;
+  background-color: #f0f7f0;
 }
 
 p {
@@ -22,12 +22,12 @@ ul li {
   display: inline-block;
 }
 
-ul a {
+a {
   text-decoration: none;
   text-transform: uppercase;
-  color: #fff;
+  color: rgb(15, 13, 13);
   font-size: 20px;
-  font-weight: bolder;
+  font-weight: 200;
 }
 
 ul a:hover {
