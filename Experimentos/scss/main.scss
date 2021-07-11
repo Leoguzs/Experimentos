@@ -1,0 +1,11 @@
+$primary-color: rgb(189, 45, 45);
+$secundary-color: yellow;
+
+body{
+    background-color: $primary-color;
+}
+
+.flex-container {
+    background-color: $secundary-color;
+    padding: 1rem;
+}
