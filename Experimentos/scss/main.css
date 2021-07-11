@@ -1,4 +1,29 @@
+/*Globals*/
 * {
-  background-color: green;
+  background-color: #bce0c4;
+}
+
+.nav-bar {
+  background-color: pink;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 1rem;
+  border-radius: 5px;
+}
+
+.nav-bar a {
+  text-decoration: none;
+  color: #4f8388;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: pink;
+}
+
+.nav-bar a:hover {
+  background-color: #e9e9a5;
 }
 /*# sourceMappingURL=main.css.map */
